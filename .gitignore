@@ -1,0 +1,27 @@
+# Ko day file thuc thi
+main
+hethongquanly
+# Cho Windows
+*.exe
+# File object và thu vien
+*.o
+*.a
+*.so
+*.dylib
+# File du lieu
+/users.txt
+/wallets.txt
+/users.txt.bak
+/wallets.txt.bak
+data/users.txt
+data/wallets.txt
+data/users.txt.bak
+data/wallets.txt.bak
+# File cau hinh IDE/Editor
+.vscode/
+*.swp
+*~
+.DS_Store
+# Thu muc build
+build/
+bin/
